@@ -1,10 +1,8 @@
 # dwm-overlay
 
 ## DWM Overlay Demonstration for Windows 25H2
-![VSCode Screenshot](./screenshots/capture1.png)
-![Browser Screenshot](./screenshots/capture2.png)
-![Browser Screenshot With Export Window Open](./screenshots/capture3.png)
 This repository demonstrates how to hook into the dwm.exe process to draw GUI elements directly onto the desktop screen buffer, and implements a screenshotting application inside of DWM. Included in this repository is the module for the hook DLL (client), a modified version of my DLL manual mapper (https://github.com/chaosium43/manual-mapper) to inject the hook (injector), and a dumper program to allow for fast updates to DWM offsets.
+![Browser Screenshot With Export Window Open](./screenshots/capture3.png)
 
 ## Running The Application
 If you simply want to try the overlay out for yourself, there are pre-built binaries included in this repository in ./binaries which you can run provided you are on Windows version 26200.7429.<br>
